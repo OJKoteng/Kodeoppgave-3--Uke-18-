@@ -4,7 +4,7 @@ color: white;
 font-family: 'Times New Roman', Times, serif;
 font-size: 20px;
 font-style:italic;
---bakgrunnsfarge: brown; 
+--bakgrunnsfarge: brown; /* --"fyll inn tilfeldig tekst" og så funksjonen: for å sette en egendefinert variabel */
 --tekstfarge: yellow;
 --font-stil: normal; 
 }
