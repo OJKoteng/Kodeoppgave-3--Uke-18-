@@ -1,0 +1,16 @@
+:root {
+background-color: steelblue;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+font-style:italic;
+--bakgrunnsfarge: brown; 
+--tekstfarge: yellow;
+--font-stil: normal; 
+}
+
+h1 {
+color: var(--tekstfarge);
+background-color: var(--bakgrunnsfarge);
+font-style: var(--font-stil);
+}
