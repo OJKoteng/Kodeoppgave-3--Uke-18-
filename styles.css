@@ -26,3 +26,5 @@ h3 {
 background-color: var(--bakgrunnsfarge2);
 }
 
+@import url(endamerCss.css);
+
