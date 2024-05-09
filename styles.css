@@ -7,6 +7,7 @@ font-style:italic;
 --bakgrunnsfarge: brown; /* --"fyll inn tilfeldig tekst" og så funksjonen: for å sette en egendefinert variabel */
 --tekstfarge: yellow;
 --font-stil: normal; 
+--bakgrunnsfarge2: black; 
 }
 
 h1 {
@@ -14,3 +15,14 @@ color: var(--tekstfarge);
 background-color: var(--bakgrunnsfarge);
 font-style: var(--font-stil);
 }
+
+@property --bakgrunnsfarge2 {
+syntax: "<color>";
+inherits: true;
+initial-value: steelblue;
+}
+
+h3 {
+background-color: var(--bakgrunnsfarge2);
+}
+
