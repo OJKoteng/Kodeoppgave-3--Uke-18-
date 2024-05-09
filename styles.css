@@ -57,3 +57,20 @@ main {
 flex-direction: column; 
 }    
 }
+
+.stickymation {
+animation: stickymation 7s;
+}
+
+@keyframes stickymation {
+from {
+margin-left: 100%;
+color: red;
+width: 200%;
+}
+to {
+margin-left: -100%;
+color: blue;
+width: 100%;
+}
+}
