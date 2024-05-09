@@ -26,12 +26,20 @@ h3 {
 background-color: var(--bakgrunnsfarge2);
 }
 
-@import url(endamerCss.css);
-
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquard+24+Charted&family=Jaini&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 .section2 {
-font-family: 'Jacquard 24 Charted', sans-serif;
+font-family: 'Jacquard 24 Charted', system-ui;
 }
 
+.section3 {
+font-family: 'Playfair Display', serif;
+}
 
+.section4 {
+font-family: "Jaini", system-ui;
+}
