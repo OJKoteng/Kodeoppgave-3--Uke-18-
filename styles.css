@@ -76,7 +76,7 @@ width: 100%;
 }
 
 .spinme {
-animation: spinme 2.0s;
+animation: spinme 4s infinite;
 }
 
 @keyframes spinme {
