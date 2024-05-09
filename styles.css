@@ -43,3 +43,17 @@ font-family: 'Playfair Display', serif;
 .section4 {
 font-family: "Jaini", system-ui;
 }
+
+main {
+display: flex;
+padding: 20px;
+gap: 20px;
+justify-content:space-between;
+}
+
+@media screen and (max-width:650px) {
+
+main {
+flex-direction: column; 
+}    
+}
