@@ -83,5 +83,9 @@ animation: spinme 4s infinite;
 to {
 transform: rotate(360deg);
 }
+}
 
+.hover-effekt:hover {
+transition: 0.5s ease;
+transform: scale(2.0);
 }
